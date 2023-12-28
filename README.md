@@ -6,13 +6,14 @@ All the things I do to install single-user or non-administrative software as muc
 
 Work with IT Services to get updater and admin-only apps running:
 
+* Thycotic "request run as thycotic admin"
 * Lenovo Commercial Vantage
 * F5 VPN
 * 
 
 ## Non-Admin runner
 
-Save to a file "nonadmin.bat"
+Save to a file "RunAsInvoker.bat"
 
     cmd /min /C "set __COMPAT_LAYER=RUNASINVOKER && start "" %1"
 
@@ -57,4 +58,9 @@ Apps that can be installed:
 
 Other options:
 
-    https://community.chocolatey.org/packages?q=id%3Aportable
+https://community.chocolatey.org/packages?q=id%3Aportable
+
+## Apps to install with the RunAsInvoker.bat
+
+* Password Safe - https://www.pwsafe.org/
+* 
