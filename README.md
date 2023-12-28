@@ -11,6 +11,15 @@ Work with IT Services to get updater and admin-only apps running:
 * F5 VPN
 * 
 
+## Install from Company Portal
+
+* 7-zip
+* PuTTY
+* Notepad++
+* Citrix Workspace
+* SQL Server Management Studio (w/ Azure Data Studio)
+* Greenshot
+
 ## Non-Admin runner
 
 Save to a file "RunAsInvoker.bat"
@@ -21,7 +30,7 @@ Drag and drop programs on this to run as non-admin.
 
 ## Powershell
 
-    Things
+    Install-Module -Name "SqlServer" -Scope CurrentUser 
 
 ## Chocolatey
 
@@ -54,7 +63,8 @@ Then run the ChocolateyInstallNonAdmin.ps1 file.
 Apps that can be installed:
 
     choco install git.commandline -y
-    choco install notepadplusplus.commandline -y
+    # choco install notepadplusplus.commandline -y
+    # choco install 7zip.portable -y
 
 Other options:
 
@@ -63,4 +73,9 @@ https://community.chocolatey.org/packages?q=id%3Aportable
 ## Apps to install with the RunAsInvoker.bat
 
 * Password Safe - https://www.pwsafe.org/
+* mRemoteNG - https://mremoteng.org/
+
+## Apps to install from Microsoft Store
+
+* OneNote for Windows 10 ? -- apears unavailable now
 * 
